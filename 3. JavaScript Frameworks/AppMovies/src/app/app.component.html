@@ -1,0 +1,56 @@
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <div class="card">
+                <legend>&nbsp;&nbsp;Add New</legend>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">Title</label>
+                        <input type="text" class="form-control" id="IdTitle" placeholder="Title" [(ngModel)]="objMovie.title">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Year</label>
+                        <input type="number" class="form-control" id="IdYear" placeholder="Year" [(ngModel)]="objMovie.year">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Genres</label>
+                        <input type="text" class="form-control" id="IdGenres" placeholder="Genres" [(ngModel)]="objMovie.genres">
+                    </div>
+                    <button type="submit" (click)="saveMovie()" class="btn btn-primary">Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Year <a (click)="orderYears()"><i class="fa fa-sort"></i></a></th>
+                        <th>Genres</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of ListMovie; let i = index;">
+                        <td>{{item.title}}</td>
+                        <td>{{item.year}}</td>
+                        <td>{{item.genres}}</td>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-xs" (click)="deleteMovie(i)"><i class="fa fa-trash"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>

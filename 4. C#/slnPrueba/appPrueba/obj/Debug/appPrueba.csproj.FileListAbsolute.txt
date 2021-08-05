@@ -1,0 +1,7 @@
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\obj\Debug\appPrueba.csprojAssemblyReference.cache
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\obj\Debug\appPrueba.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\bin\Debug\appPrueba.exe.config
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\bin\Debug\appPrueba.exe
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\bin\Debug\appPrueba.pdb
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\obj\Debug\appPrueba.exe
+C:\Users\ALEJANDRO BERNAL\source\repos\slnPrueba\appPrueba\obj\Debug\appPrueba.pdb
